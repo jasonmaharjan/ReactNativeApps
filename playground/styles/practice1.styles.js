@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
    view: {
-     flex: 1
+     height: "100%"
    },
 
    titleContainer: {
@@ -98,6 +98,17 @@ export const styles = StyleSheet.create({
       width: 150,
       //elevation: 10,
       borderRadius: 10,
-   }
+   },
+
+   nextPage: { 
+     elevation: 5, 
+     borderRadius: 20, 
+     backgroundColor: 'blue', 
+     height: 40, 
+     width: 100, 
+     padding: 10, 
+     marginLeft: 280,
+     marginBottom: 25
+    },
  });
  

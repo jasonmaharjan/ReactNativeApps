@@ -1,12 +1,15 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
-//import '../styles/practice2.styles';
+import FlatListImages from '../components/flatlist-images/flatlist-images';
+import { styles } from '../styles/practice1.styles';
 
 const Practice2 = () => {
    return (
-      <View>
-         <Text>Hello There</Text>
+      <View style = {styles.view}>
+         <View style = {styles.container}> 
+            <FlatListImages />
+         </View>  
       </View>
    );
 }

@@ -20,7 +20,7 @@ const FlatListImages = () => {
             <View style = {{flexDirection: 'row'}}>
                <Image source = {item} key = {index} style = {styles.image} />
                <TouchableOpacity onPress = {() => alert("Albedo says Hi") } style = {{elevation: 5, borderRadius: 10, backgroundColor: 'lightpink', height: 40, width: 100, padding: 10, margin: 50}}>
-               <Text style = {{alignSelf: 'center', color: 'grey'}}>Click Me</Text>
+                  <Text style = {{alignSelf: 'center', color: 'grey'}}>Click Me</Text>
                </TouchableOpacity>
             </View>
          )}
