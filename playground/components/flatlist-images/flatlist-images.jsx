@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, Image, FlatList, TouchableOpacity } from 'react-native';
 
-import { styles } from '../../styles/app.styles';
+import { styles } from '../../styles/practice1.styles';
 
 const FlatListImages = () => {
    const [images, setImages] = useState(

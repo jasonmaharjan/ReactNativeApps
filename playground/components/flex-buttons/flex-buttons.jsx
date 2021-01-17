@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 
-import { styles } from '../../styles/app.styles';
+import { styles } from '../../styles/practice1.styles';
 
 const FlexButtons = () => (
          <View style = {styles.boxContainer}>
